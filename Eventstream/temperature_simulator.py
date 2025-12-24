@@ -10,7 +10,7 @@ import time
 import json
 
 # Replace the placeholders with your Event Hubs connection string and event hub name
-EVENTHUB_NAME = 'xxxxxxxx'
+EVENTHUB_NAME = 'xxxxxxxxxx'
 CONNECTION_STR = 'xxxxxxxx'
 
 
