@@ -1,0 +1,21 @@
+##Spark code
+## Insert File
+df =spark.read.parquet("Files/NameFIle.parquet")
+df.write.format("delta") \ 
+.mode("overwrite") \               ## Or using "append", if you do not want the table will be overwritten
+.saveAsTable(f"Lakehouse.Bronze.NameTable")
+
+## Spark sql code 
+df = spark.sql(
+"SELECT name fields " 
+"FROM Lakehouse.Bronze.NameTable"
+)
+## magic command
+%%pyspark
+## Runs the cell using PySpark.
+%%scala
+## Executes Scala code.
+%%sql
+## Runs SQL queries directly on Spark tables.
+%%mssparkutils
+## Provides access to Microsoft-specific utilities like file handling, secrets, and job control
