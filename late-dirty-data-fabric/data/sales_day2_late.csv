@@ -1,0 +1,3 @@
+order_id,order_date,customer_id,amount,updated_at
+1002,2025-01-01,C002,220,2025-01-02
+1004,2025-01-02,C004,300,2025-01-02
