@@ -1,0 +1,3 @@
+sales_day1.csv --> amount= -50 where order_id=1003
+sales_day2_late.csv--> update record  order_id=1002
+sales_correction.csv --> update record  order_id=1003
